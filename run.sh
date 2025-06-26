@@ -12,12 +12,12 @@ function start_prometheus {
 
 mkdir logs
 
-export NSIWS_HOSTNAME='https://nsi-design-statsuite.dev.aws.fao.org'
+export NSIWS_HOSTNAME='https://nsi-staging-statsuite.dev.aws.fao.org'
 export USERNAME='test-admin'
 export CLIENT_ID='stat-suite'
 export PASSWORD='admin '
 export TRANSFER_HOSTNAME='https://transfer-statsuite.dev.aws.fao.org'
-export DATASPACE='design'
+export DATASPACE='staging'
 export KEYCLOAK_URL='https://keycloak-statsuite.dev.aws.fao.org/auth/realms/demo/protocol/openid-connect/token'
 export KEYCLOAK_CLIENT_ID='stat-suite'
 export DOCKER_IMAGE='grafana/k6:latest'
@@ -28,7 +28,7 @@ suite=( #"smoke-test-structure-imports"
 #"smoke-test-data-imports"
 #"smoke-test-exports"
 #"load-test-data-imports"
-"load-test-exports"
+"load-test-exports-fao"
 #"soak-test-data-imports"
 #"soak-test-exports"
 #"spike-test-data-imports"
