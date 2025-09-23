@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v8.1.2.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF5</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2021-03-01T13:41:02.8010359+00:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Dataflows>
+      <structure:Dataflow id="MILLED_RICE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=PT:MILLED_RICE(1.0)" agencyID="PT" version="1.0" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Milled rice</common:Name>
+        <structure:Structure>
+          <Ref id="MILLED_RICE" version="1.0" agencyID="PT" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+    </structure:Dataflows>
+    <structure:Codelists>
+      <structure:Codelist id="CL_FREQ_A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=PT:CL_FREQ_A(1.0)" agencyID="PT" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Frequency</common:Name>
+        <structure:Code id="A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_FREQ_A(1.0).A">
+          <common:Name xml:lang="en">Annual</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_PROVINCES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=PT:CL_PROVINCES(1.0)" agencyID="PT" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Provinces of Cambodia</common:Name>
+        <structure:Code id="ASIKHM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM">
+          <common:Name xml:lang="en">Cambodia</common:Name>
+        </structure:Code>
+        <structure:Code id="ASIKHM001" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM001">
+          <common:Name xml:lang="en">Banteay Meanchey</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM002" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM002">
+          <common:Name xml:lang="en">Battambang</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM003" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM003">
+          <common:Name xml:lang="en">Kampong Cham</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM004" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM004">
+          <common:Name xml:lang="en">Kampong Chhnang</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM005" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM005">
+          <common:Name xml:lang="en">Kampong Speu</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM006" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM006">
+          <common:Name xml:lang="en">Kampong Thom</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM007" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM007">
+          <common:Name xml:lang="en">Kampot</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM008" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM008">
+          <common:Name xml:lang="en">Kandal</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM009" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM009">
+          <common:Name xml:lang="en">Koh Kong</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM010" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM010">
+          <common:Name xml:lang="en">Kratie</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM011" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM011">
+          <common:Name xml:lang="en">Mondul Kiri</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM012" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM012">
+          <common:Name xml:lang="en">Phnom Penh</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM013" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM013">
+          <common:Name xml:lang="en">Preah Vihear</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM014" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM014">
+          <common:Name xml:lang="en">Prey Veng</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM015" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM015">
+          <common:Name xml:lang="en">Pursat</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM016" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM016">
+          <common:Name xml:lang="en">Ratanak Kiri</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM017">
+          <common:Name xml:lang="en">Siem Reap</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM018" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM018">
+          <common:Name xml:lang="en">Preah Sihanouk</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM019" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM019">
+          <common:Name xml:lang="en">Stung Treng</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM020" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM020">
+          <common:Name xml:lang="en">Svay Rieng</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM021" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM021">
+          <common:Name xml:lang="en">Takeo</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM022" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM022">
+          <common:Name xml:lang="en">Otdar Meanchey</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM023" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM023">
+          <common:Name xml:lang="en">Kep</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM024" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM024">
+          <common:Name xml:lang="en">Pailin</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ASIKHM025" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_PROVINCES(1.0).ASIKHM025">
+          <common:Name xml:lang="en">Tboung Khmum</common:Name>
+          <structure:Parent>
+            <Ref id="ASIKHM" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_UNIT_TONES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=PT:CL_UNIT_TONES(1.0)" agencyID="PT" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Unit of measure: tones</common:Name>
+        <structure:Code id="TONES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=PT:CL_UNIT_TONES(1.0).TONES">
+          <common:Name xml:lang="en">Tones</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:Concepts>
+      <structure:ConceptScheme id="CS_DSD_DevInfo" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=PT:CS_DSD_DevInfo(1.0)" agencyID="PT" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Concept Scheme for DSD</common:Name>
+        <common:Description xml:lang="en">List of Concepts to be used in DSD</common:Description>
+        <structure:Concept id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).TIME_PERIOD">
+          <common:Name xml:lang="en">Time Period</common:Name>
+          <common:Description xml:lang="en">Reference date - or date range - the observed value refers to (usually different from the dates of data production or dissemination). All four format (Gregorian Time Period, Date Time, Reporting Time Period, Time Range) supported by SDMX are allowed.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).OBS_VALUE">
+          <common:Name xml:lang="en">Observation value</common:Name>
+          <common:Description xml:lang="en">Actual observation.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).REF_AREA">
+          <common:Name xml:lang="en">Reference area</common:Name>
+          <common:Description xml:lang="en">Reference Area: Specific areas (e.g. Country, Regional Grouping, etc)  the observed values refer to. Reference areas can be determined according to different criteria (e.g.: geographical, economic, etc.)</common:Description>
+        </structure:Concept>
+        <structure:Concept id="INDICATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).INDICATOR">
+          <common:Name xml:lang="en">Indicator</common:Name>
+          <common:Description xml:lang="en">The phenomenon or phenomena to be measured in the data set. The word INDICATOR is used for consistency with the term used in the DevInfo.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).UNIT">
+          <common:Name xml:lang="en">Unit of measure</common:Name>
+          <common:Description xml:lang="en">Dimension by which the indicators are described (e.g.: percentage, USD, etc.)</common:Description>
+        </structure:Concept>
+        <structure:Concept id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).UNIT_MEASURE">
+          <common:Name xml:lang="en">Unit of measure</common:Name>
+          <common:Description xml:lang="en">Dimension by which the indicators are described (e.g.: percentage, USD, etc.)</common:Description>
+        </structure:Concept>
+        <structure:Concept id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).UNIT_MULT">
+          <common:Name xml:lang="en">Unit multiplier</common:Name>
+          <common:Description xml:lang="en">Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).FREQ">
+          <common:Name xml:lang="en">Frequency</common:Name>
+          <common:Description xml:lang="en">Indicates rate of recurrence at which observations occur (e.g. monthly, yearly, biannually, etc.)</common:Description>
+        </structure:Concept>
+        <structure:Concept id="SOURCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).SOURCE">
+          <common:Name xml:lang="en">Source</common:Name>
+          <common:Description xml:lang="en">Source of  survey, administrative records, census etc.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="NATURE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).NATURE">
+          <common:Name xml:lang="en">Nature</common:Name>
+          <common:Description xml:lang="en">Information on the production and dissemination of the data (e.g.: if the figure has been produced and disseminated by the country, estimated by international agencies, etc.)</common:Description>
+        </structure:Concept>
+        <structure:Concept id="DENOMINATOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).DENOMINATOR">
+          <common:Name xml:lang="en">Denominator</common:Name>
+          <common:Description xml:lang="en">Base denominator value associated with observation.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="FOOTNOTES" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).FOOTNOTES">
+          <common:Name xml:lang="en">Footnotes</common:Name>
+          <common:Description xml:lang="en">Additional information on specific aspects of each observation, such as how the observation was computed/estimated or details that could affect the comparability of this data point with others in a time series.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="CONFIDENCE_INTERVAL_UPPER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).CONFIDENCE_INTERVAL_UPPER">
+          <common:Name xml:lang="en">Confidence interval - Upper</common:Name>
+          <common:Description xml:lang="en">Upper measure of the probability that the observation value will fall below this value.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="CONFIDENCE_INTERVAL_LOWER" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).CONFIDENCE_INTERVAL_LOWER">
+          <common:Name xml:lang="en">Confidence interval - Lower</common:Name>
+          <common:Description xml:lang="en">Lower measure of the probability that the observation value will fall above this value.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="LOCATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).LOCATION">
+          <common:Name xml:lang="en">Location</common:Name>
+          <common:Description xml:lang="en">Refers to a disaggregation within the Reference Area the data alludes; normally National (total), Urban or Rural - although additional disaggregations are possible within an area (e.g. subUrban).</common:Description>
+        </structure:Concept>
+        <structure:Concept id="SEX" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).SEX">
+          <common:Name xml:lang="en">Sex</common:Name>
+          <common:Description xml:lang="en">Gender condition: male or female. This dimension applies only if data can be dissaggregated by sex.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="AGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).AGE">
+          <common:Name xml:lang="en">Age</common:Name>
+          <common:Description xml:lang="en">Age - or age range - of the individuals the observation refers to.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="OTHERS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).OTHERS">
+          <common:Name xml:lang="en">Other</common:Name>
+          <common:Description xml:lang="en">A subgroup concept.</common:Description>
+        </structure:Concept>
+        <structure:Concept id="EDUCATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).EDUCATION">
+          <common:Name xml:lang="en">Education level</common:Name>
+        </structure:Concept>
+        <structure:Concept id="GRADE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).GRADE">
+          <common:Name xml:lang="en">Grade</common:Name>
+        </structure:Concept>
+        <structure:Concept id="SECTOR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).SECTOR">
+          <common:Name xml:lang="en">Economic activity sector</common:Name>
+        </structure:Concept>
+        <structure:Concept id="ANTENTAL_CARE_CONSULTATION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).ANTENTAL_CARE_CONSULTATION">
+          <common:Name xml:lang="en">Antental care consultations</common:Name>
+        </structure:Concept>
+        <structure:Concept id="BOP_RATIO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).BOP_RATIO">
+          <common:Name xml:lang="en">Balance of payment ratio</common:Name>
+        </structure:Concept>
+        <structure:Concept id="BOP_ITEM" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).BOP_ITEM">
+          <common:Name xml:lang="en">Balance of payment item</common:Name>
+        </structure:Concept>
+        <structure:Concept id="CURRENCY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).CURRENCY">
+          <common:Name xml:lang="en">Currency</common:Name>
+        </structure:Concept>
+        <structure:Concept id="DEPOSIT_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).DEPOSIT_TYPE">
+          <common:Name xml:lang="en">Deposit type</common:Name>
+        </structure:Concept>
+        <structure:Concept id="LOAN_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).LOAN_TYPE">
+          <common:Name xml:lang="en">Loan type</common:Name>
+        </structure:Concept>
+        <structure:Concept id="WIQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).WIQ">
+          <common:Name xml:lang="en">Wealth index quintile</common:Name>
+        </structure:Concept>
+        <structure:Concept id="PRODUCT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).PRODUCT">
+          <common:Name xml:lang="en">Product type</common:Name>
+        </structure:Concept>
+        <structure:Concept id="CROP" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).CROP">
+          <common:Name xml:lang="en">Crop type</common:Name>
+        </structure:Concept>
+        <structure:Concept id="CALAMITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).CALAMITY">
+          <common:Name xml:lang="en">Natural calamity type</common:Name>
+        </structure:Concept>
+        <structure:Concept id="PLACE_OF_DELIVERY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).PLACE_OF_DELIVERY">
+          <common:Name xml:lang="en">Place of delivery</common:Name>
+        </structure:Concept>
+        <structure:Concept id="LIGHTING_SOURCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).LIGHTING_SOURCE">
+          <common:Name xml:lang="en">Source of lighting</common:Name>
+        </structure:Concept>
+        <structure:Concept id="INTERNET_ACCESS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).INTERNET_ACCESS">
+          <common:Name xml:lang="en">Place from where household members have access to Internet</common:Name>
+        </structure:Concept>
+        <structure:Concept id="POVERTY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).POVERTY">
+          <common:Name xml:lang="en">Poverty level</common:Name>
+        </structure:Concept>
+        <structure:Concept id="LIVESTOCK" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).LIVESTOCK">
+          <common:Name xml:lang="en">Livestock type</common:Name>
+        </structure:Concept>
+        <structure:Concept id="ASSISTANCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).ASSISTANCE">
+          <common:Name xml:lang="en">Type of assistant</common:Name>
+        </structure:Concept>
+        <structure:Concept id="DEATH_PLACE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).DEATH_PLACE">
+          <common:Name xml:lang="en">Place of death</common:Name>
+        </structure:Concept>
+        <structure:Concept id="ECE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).ECE">
+          <common:Name xml:lang="en">Early childhood education</common:Name>
+        </structure:Concept>
+        <structure:Concept id="SCHOOL_PLACE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).SCHOOL_PLACE">
+          <common:Name xml:lang="en">School place</common:Name>
+        </structure:Concept>
+        <structure:Concept id="PRESCHOOL_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).PRESCHOOL_TYPE">
+          <common:Name xml:lang="en">Preschool type</common:Name>
+        </structure:Concept>
+        <structure:Concept id="SEASON" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).SEASON">
+          <common:Name xml:lang="en">Season</common:Name>
+        </structure:Concept>
+        <structure:Concept id="OWNERSHIP" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).OWNERSHIP">
+          <common:Name xml:lang="en">Type of ownership</common:Name>
+        </structure:Concept>
+        <structure:Concept id="POST_PARTUM_CARE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).POST_PARTUM_CARE">
+          <common:Name xml:lang="en">Post-partum care</common:Name>
+        </structure:Concept>
+        <structure:Concept id="DRINKING_WATER_SOURCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).DRINKING_WATER_SOURCE">
+          <common:Name xml:lang="en">Source of drinking water</common:Name>
+        </structure:Concept>
+        <structure:Concept id="TOILET_FACILITY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).TOILET_FACILITY">
+          <common:Name xml:lang="en">Toilet facility</common:Name>
+        </structure:Concept>
+        <structure:Concept id="HOUSEHOLD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).HOUSEHOLD">
+          <common:Name xml:lang="en">Household type</common:Name>
+        </structure:Concept>
+        <structure:Concept id="CONTRACEPTION" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).CONTRACEPTION">
+          <common:Name xml:lang="en">Contraception method</common:Name>
+        </structure:Concept>
+        <structure:Concept id="COUNTRY_OF_RESID" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=PT:CS_DSD_DevInfo(1.0).COUNTRY_OF_RESID">
+          <common:Name xml:lang="en">Country of residence</common:Name>
+        </structure:Concept>
+      </structure:ConceptScheme>
+    </structure:Concepts>
+    <structure:DataStructures>
+      <structure:DataStructure id="MILLED_RICE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=PT:MILLED_RICE(1.0)" agencyID="PT" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">DSD: Milled rice</common:Name>
+        <structure:DataStructureComponents>
+          <structure:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=PT:MILLED_RICE(1.0).DimensionDescriptor">
+            <structure:Dimension id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=PT:MILLED_RICE(1.0).REF_AREA" position="1">
+              <structure:ConceptIdentity>
+                <Ref id="REF_AREA" maintainableParentID="CS_DSD_DevInfo" maintainableParentVersion="1.0" agencyID="PT" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_PROVINCES" version="1.0" agencyID="PT" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=PT:MILLED_RICE(1.0).UNIT_MEASURE" position="2">
+              <structure:ConceptIdentity>
+                <Ref id="UNIT_MEASURE" maintainableParentID="CS_DSD_DevInfo" maintainableParentVersion="1.0" agencyID="PT" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_UNIT_TONES" version="1.0" agencyID="PT" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=PT:MILLED_RICE(1.0).FREQ" position="3">
+              <structure:ConceptIdentity>
+                <Ref id="FREQ" maintainableParentID="CS_DSD_DevInfo" maintainableParentVersion="1.0" agencyID="PT" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_FREQ_A" version="1.0" agencyID="PT" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=PT:MILLED_RICE(1.0).TIME_PERIOD" position="4">
+              <structure:ConceptIdentity>
+                <Ref id="TIME_PERIOD" maintainableParentID="CS_DSD_DevInfo" maintainableParentVersion="1.0" agencyID="PT" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="ObservationalTimePeriod" />
+              </structure:LocalRepresentation>
+            </structure:TimeDimension>
+          </structure:DimensionList>
+          <structure:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=PT:MILLED_RICE(1.0).AttributeDescriptor">
+            <structure:Attribute id="SOURCE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=PT:MILLED_RICE(1.0).SOURCE" assignmentStatus="Mandatory">
+              <structure:ConceptIdentity>
+                <Ref id="SOURCE" maintainableParentID="CS_DSD_DevInfo" maintainableParentVersion="1.0" agencyID="PT" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="String" />
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:PrimaryMeasure>
+                  <Ref id="OBS_VALUE" />
+                </structure:PrimaryMeasure>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+          </structure:AttributeList>
+          <structure:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=PT:MILLED_RICE(1.0).MeasureDescriptor">
+            <structure:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=PT:MILLED_RICE(1.0).OBS_VALUE">
+              <structure:ConceptIdentity>
+                <Ref id="OBS_VALUE" maintainableParentID="CS_DSD_DevInfo" maintainableParentVersion="1.0" agencyID="PT" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="Decimal" />
+              </structure:LocalRepresentation>
+            </structure:PrimaryMeasure>
+          </structure:MeasureList>
+        </structure:DataStructureComponents>
+      </structure:DataStructure>
+    </structure:DataStructures>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CR_A_MILLED_RICE" urn="urn:sdmx:org.sdmx.infomodel.registry.ContentConstraint=PT:CR_A_MILLED_RICE(1.0)" agencyID="PT" version="1.0" isFinal="false" type="Actual">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>A</common:AnnotationTitle>
+            <common:AnnotationType>ReleaseVersion</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Availability (A) for MILLED_RICE</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="MILLED_RICE" version="1.0" agencyID="PT" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="REF_AREA">
+            <common:Value>ASIKHM</common:Value>
+            <common:Value>ASIKHM001</common:Value>
+            <common:Value>ASIKHM002</common:Value>
+            <common:Value>ASIKHM003</common:Value>
+            <common:Value>ASIKHM004</common:Value>
+            <common:Value>ASIKHM005</common:Value>
+            <common:Value>ASIKHM006</common:Value>
+            <common:Value>ASIKHM007</common:Value>
+            <common:Value>ASIKHM008</common:Value>
+            <common:Value>ASIKHM009</common:Value>
+            <common:Value>ASIKHM010</common:Value>
+            <common:Value>ASIKHM011</common:Value>
+            <common:Value>ASIKHM012</common:Value>
+            <common:Value>ASIKHM013</common:Value>
+            <common:Value>ASIKHM014</common:Value>
+            <common:Value>ASIKHM015</common:Value>
+            <common:Value>ASIKHM016</common:Value>
+            <common:Value>ASIKHM017</common:Value>
+            <common:Value>ASIKHM018</common:Value>
+            <common:Value>ASIKHM019</common:Value>
+            <common:Value>ASIKHM020</common:Value>
+            <common:Value>ASIKHM021</common:Value>
+            <common:Value>ASIKHM022</common:Value>
+            <common:Value>ASIKHM023</common:Value>
+            <common:Value>ASIKHM024</common:Value>
+            <common:Value>ASIKHM025</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="UNIT_MEASURE">
+            <common:Value>TONES</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="FREQ">
+            <common:Value>A</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">2014-01-01T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2018-12-31T23:59:59</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>

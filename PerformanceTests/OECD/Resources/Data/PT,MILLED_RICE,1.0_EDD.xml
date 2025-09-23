@@ -1,0 +1,16 @@
+<Excel-Data-Description Version="1.0" Agency="PT"
+		Dataflow="MILLED_RICE">
+	<Coord-Mapping IsActive="true" ExcludeNulls="false" Name="Milled rice">
+		<Worksheets>
+			<Worksheet Name="PT,MILLED_RICE,1.0"/>
+		</Worksheets>
+		<Top-Left Coord="E2"/>
+		<Bottom-Right Coord="E104"/>
+		<Dimension Coord="Cell(Row,1)" Code="REF_AREA"/>
+		<Dimension Coord="Cell(Row,2)" Code="UNIT_MEASURE"/>
+		<Dimension Coord="Cell(Row,3)" Code="FREQ"/>
+		<Dimension Coord="Cell(Row,4)" Code="TIME_PERIOD"/>
+		<ObsAttribute Coord="Cell(Row,6)" Code="SOURCE"/>
+	</Coord-Mapping>
+</Excel-Data-Description>
+
