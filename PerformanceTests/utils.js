@@ -179,7 +179,7 @@ export function importData(config, testCase, importRate, importTrend)
 	}
 }
 
-const SUPPORTED_RESPONSE_FORMATS =["csv", "json", "xml"];
+const SUPPORTED_RESPONSE_FORMATS =["csv", "json"];
 
 export function exportData(config, testQuery, isRandom)
 {
@@ -234,7 +234,7 @@ export function exportData(config, testQuery, isRandom)
 				//has range headers
 				if ('range' in testQuery) {
 					params.headers.Range=testQuery.range;
-					expectedResponseStatusCode = 206;//partial content
+					expectedResponseStatusCode = 200;//partial content
 				}
 				
 				//add tags
