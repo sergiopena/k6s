@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 
 import argparse
+import os
 from pathlib import Path
+from dotenv import load_dotenv
 from statsuite_lib import KeycloakClient, TransferClient, NSIClient
 
 
-OPENID_URL = 'https://keycloak-statsuite.dev.aws.fao.org/realms/statsuite/.well-known/openid-configuration'
-KEYCLOAK_USER = 'test-admin'
-KEYCLOAK_PASSWORD = 'admin'
-TRANSFER_URL = 'https://transfer-statsuite.dev.aws.fao.org'
-NSI_URL = 'https://nsi-design-statsuite.dev.aws.fao.org'
-DATASPACE = 'design'
+load_dotenv(Path(__file__).resolve().parent / '.env')
+
+OPENID_URL = os.environ['KEYCLOAK_OPENID_URL']
+KEYCLOAK_USER = os.environ['KEYCLOAK_USER']
+KEYCLOAK_PASSWORD = os.environ['KEYCLOAK_PASSWORD']
+TRANSFER_URL = os.environ['TRANSFER_URL']
+NSI_URL = os.environ['NSI_URL']
+DATASPACE = os.environ['DATASPACE']
 
 
 def process_xml_files(sample_data_dir, nsi):
