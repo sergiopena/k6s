@@ -33,17 +33,9 @@ mkdir logs
 export TESTSUITE_START_TIME=$(date +"%Y-%m-%d-%T")
 
 
-suite=( #"smoke-test-structure-imports"
-#"smoke-test-data-imports"
-"smoke-test-exports"
-#"load-test-data-imports"
-#"load-test-exports-fao"
-#"soak-test-data-imports"
-#"soak-test-exports"
-#"spike-test-data-imports"
-#"spike-test-exports"
-#"stress-test-data-imports"
-#"stress-test-exports" 
+suite=( 
+#"smoke-test-exports"
+"load-test-exports"
 )
 
 for test in "${suite[@]}";
